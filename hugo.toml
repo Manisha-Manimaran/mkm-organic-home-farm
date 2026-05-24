@@ -1,0 +1,5 @@
+baseURL = '/'
+locale = 'ta-IN'
+title = 'MKM Organic Home Farm'
+theme = ''
+disableKinds = ['RSS', 'sitemap', 'taxonomy', 'term']

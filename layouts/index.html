@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MKM Organic Home Farm | நாட்டு முட்டை & கோழி</title>
+  <meta name="description" content="MKM Organic Home Farm - வீட்டில் வளர்க்கப்படும் கோழிகள், குஞ்சுகள் & புதிய நாட்டு முட்டைகள். Home-based poultry farm in Tamil Nadu.">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- ═══════ NAVIGATION ═══════ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">
+      <span class="nav-logo-icon">🐓</span>
+      MKM Organic Home Farm
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" id="menuToggle">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="nav-overlay" id="navOverlay"></div>
+
+<script>
+(function() {
+  var t = document.getElementById('menuToggle');
+  var l = document.getElementById('navLinks');
+  var o = document.getElementById('navOverlay');
+  var a = l.querySelectorAll('a');
+
+  function open() { t.classList.add('active'); l.classList.add('show'); o.classList.add('show'); document.body.style.overflow = 'hidden'; }
+  function close() { t.classList.remove('active'); l.classList.remove('show'); o.classList.remove('show'); document.body.style.overflow = ''; }
+
+  t.addEventListener('click', function() { l.classList.contains('show') ? close() : open(); });
+  o.addEventListener('click', close);
+  for (var i = 0; i < a.length; i++) { a[i].addEventListener('click', close); }
+})();
+</script>
+
+<!-- ═══════ HERO ═══════ -->
+<section class="hero" id="home">
+  <span class="hero-float hero-float--1">🥚</span>
+  <span class="hero-float hero-float--2">🐤</span>
+  <span class="hero-float hero-float--3">🥚</span>
+
+  <div class="hero-content container">
+    <span class="hero-icon">🐓</span>
+    <h1>MKM <span class="highlight">Organic Home Farm</span></h1>
+    <p class="subtitle">
+      வீட்டில் வளர்க்கப்படும் கோழிகள், குஞ்சுகள் &amp; புதிய நாட்டு முட்டைகள்
+    </p>
+    <p class="description">
+      Home-raised poultry, country chicks, duck, guinea fowl, Kadaknath chicken, turkey and fresh country eggs available in limited quantity.
+    </p>
+    <div class="hero-buttons">
+      <a href="https://wa.me/919994656829" target="_blank" rel="noopener" class="btn btn-whatsapp">💬 WhatsApp Now</a>
+      <a href="tel:+919994656829" class="btn btn-call">📞 Call Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ ABOUT ═══════ -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="section-title">
+      <h2>🌿 About Us / எங்களை பற்றி</h2>
+      <p>சிறிய அளவில், அன்புடன் வளர்க்கிறோம்</p>
+    </div>
+    <div class="about-content">
+      <p>MKM Organic Home Farm is a small home-based poultry setup. We provide home-raised chicks, chicken, duck, guinea fowl, Kadaknath chicken, turkey and fresh country eggs. Availability is limited, so customers can contact us through WhatsApp or call for current availability and price.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ PROCESS ═══════ -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-title">
+      <h2>🐣 Our Process / எங்கள் முறை</h2>
+      <p>இயற்கையான முறையில், அன்புடன் வளர்க்கப்படும் குஞ்சுகள்</p>
+    </div>
+
+    <div class="process-grid">
+      <div class="process-card">
+        <span class="icon">🏡</span>
+        <h3>Home-raised Birds</h3>
+        <p>All our poultry is raised naturally at home with traditional methods, clean feed, and plenty of care.</p>
+      </div>
+      <div class="process-card">
+        <span class="icon">🥚</span>
+        <h3>Fresh Limited Stock</h3>
+        <p>Since we are a small farm, availability is limited. Each batch is fresh and raised with attention to quality.</p>
+      </div>
+      <div class="process-card">
+        <span class="icon">📞</span>
+        <h3>Contact for Orders</h3>
+        <p>Reach out through WhatsApp or Call to check current availability, pricing, and delivery to your area.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ PRODUCTS ═══════════════════════════════════════════════════════════
+     To replace a product SVG with a real photo:
+       1. Save image as e.g. static/images/product-chicks.jpg
+       2. Replace the <img src="/images/icon-..."> with:
+          <img class="product-img" src="/images/product-chicks.jpg" alt="Country Chicks">
+     ═════════════════════════════════════════════════════════════════════════ -->
+<section class="products" id="products">
+  <div class="container">
+    <div class="section-title">
+      <h2>🐔 Available Products / கிடைக்கும் பொருட்கள்</h2>
+      <p>இயற்கையாக வளர்க்கப்படுபவை &middot; Naturally raised</p>
+    </div>
+
+    <div class="products-grid">
+
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <img src="/images/icon-chick.svg" alt="Country Chicks">
+        </div>
+        <div class="product-body">
+          <h3>Country Chicks</h3>
+          <span class="tamil-name">நாட்டு கோழி குஞ்சுகள்</span>
+          <p class="desc">Healthy, home-raised country chicks for backyard farming.</p>
+          <a href="https://wa.me/919994656829?text=Hi%2C%20I%20want%20to%20enquire%20about%20Country%20Chicks" target="_blank" rel="noopener" class="btn-small">💬 Enquire on WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <img src="/images/icon-hen.svg" alt="Chicken">
+        </div>
+        <div class="product-body">
+          <h3>Chicken</h3>
+          <span class="tamil-name">கோழி</span>
+          <p class="desc">Fresh, home-raised country chicken. Naturally fed.</p>
+          <a href="https://wa.me/919994656829?text=Hi%2C%20I%20want%20to%20enquire%20about%20Chicken" target="_blank" rel="noopener" class="btn-small">💬 Enquire on WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <img src="/images/icon-duck.svg" alt="Duck">
+        </div>
+        <div class="product-body">
+          <h3>Duck</h3>
+          <span class="tamil-name">வாத்து</span>
+          <p class="desc">Home-raised ducks, healthy and naturally grown.</p>
+          <a href="https://wa.me/919994656829?text=Hi%2C%20I%20want%20to%20enquire%20about%20Duck" target="_blank" rel="noopener" class="btn-small">💬 Enquire on WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <img src="/images/icon-guinea.svg" alt="Guinea Fowl">
+        </div>
+        <div class="product-body">
+          <h3>Guinea Fowl</h3>
+          <span class="tamil-name">கின்னி கோழி</span>
+          <p class="desc">Unique, home-raised guinea fowl. Limited availability.</p>
+          <a href="https://wa.me/919994656829?text=Hi%2C%20I%20want%20to%20enquire%20about%20Guinea%20Fowl" target="_blank" rel="noopener" class="btn-small">💬 Enquire on WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <img src="/images/icon-kadaknath.svg" alt="Kadaknath Chicken">
+        </div>
+        <div class="product-body">
+          <h3>Kadaknath Chicken</h3>
+          <span class="tamil-name">கருங்கோழி</span>
+          <p class="desc">Premium black meat chicken raised naturally at home.</p>
+          <a href="https://wa.me/919994656829?text=Hi%2C%20I%20want%20to%20enquire%20about%20Kadaknath%20Chicken" target="_blank" rel="noopener" class="btn-small">💬 Enquire on WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <img src="/images/icon-turkey.svg" alt="Turkey">
+        </div>
+        <div class="product-body">
+          <h3>Turkey</h3>
+          <span class="tamil-name">வான்கோழி</span>
+          <p class="desc">Home-raised turkey, fresh and naturally fed.</p>
+          <a href="https://wa.me/919994656829?text=Hi%2C%20I%20want%20to%20enquire%20about%20Turkey" target="_blank" rel="noopener" class="btn-small">💬 Enquire on WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <img src="/images/icon-egg.svg" alt="Country Eggs">
+        </div>
+        <div class="product-body">
+          <h3>Country Eggs</h3>
+          <span class="tamil-name">நாட்டு முட்டை</span>
+          <p class="desc">Fresh, organic country eggs from home-raised hens.</p>
+          <a href="https://wa.me/919994656829?text=Hi%2C%20I%20want%20to%20enquire%20about%20Country%20Eggs" target="_blank" rel="noopener" class="btn-small">💬 Enquire on WhatsApp</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ GALLERY ═══════════════════════════════════════════════════════════
+     Replace each placeholder with your own farm photos.
+     Save images in: static/images/ (e.g. farm-1.jpg)
+     Then replace the entire <div class="gallery-placeholder">...</div>
+     with: <img src="/images/farm-1.jpg" alt="Farm photo">
+     ═════════════════════════════════════════════════════════════════════════ -->
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="section-title">
+      <h2>📸 Gallery / புகைப்படங்கள்</h2>
+      <p>Replace these placeholders with your own farm photos</p>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <span class="icon">🐔</span>
+          <span class="label">Hens</span>
+          <span class="label-ta">கோழிகள்</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <span class="icon">🐤</span>
+          <span class="label">Chicks</span>
+          <span class="label-ta">குஞ்சுகள்</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <span class="icon">🥚</span>
+          <span class="label">Eggs</span>
+          <span class="label-ta">நாட்டு முட்டை</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <span class="icon">🦆</span>
+          <span class="label">Ducks</span>
+          <span class="label-ta">வாத்து</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <span class="icon">🐓</span>
+          <span class="label">Kadaknath</span>
+          <span class="label-ta">கருங்கோழி</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <span class="icon">🦃</span>
+          <span class="label">Turkeys</span>
+          <span class="label-ta">வான்கோழி</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ CONTACT ═══════ -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-title">
+      <h2>📞 Contact Us / தொடர்புக்கு</h2>
+      <p>தற்போதைய கிடைக்கும் விவரம் மற்றும் விலைக்கு Call / WhatsApp மூலம் தொடர்பு கொள்ளவும்.</p>
+    </div>
+
+    <div class="contact-info">
+      <div class="contact-card">
+        <span class="icon">💬</span>
+        <h3>WhatsApp</h3>
+        <p>Tap below to chat with us directly</p>
+        <a href="https://wa.me/919994656829" target="_blank" rel="noopener">💬 WhatsApp Now</a>
+      </div>
+      <div class="contact-card">
+        <span class="icon">📞</span>
+        <h3>Phone</h3>
+        <p>Call us for quick inquiries</p>
+        <a href="tel:+919994656829">📞 +91 99946 56829</a>
+      </div>
+      <div class="contact-card">
+        <span class="icon">📍</span>
+        <h3>Service Area</h3>
+        <p>Nearby local areas in Tamil Nadu. Contact us to check delivery availability.</p>
+      </div>
+    </div>
+
+    <!-- ═════════════════════════════════════════════════════════════════════
+         Add Google Maps iframe here after Google Business Profile is verified.
+         Example:
+         <div style="margin-top: 24px; border-radius: 14px; overflow: hidden; max-width: 600px; margin-left: auto; margin-right: auto;">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div>
+         ═════════════════════════════════════════════════════════════════════ -->
+
+  </div>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer>
+  <div class="container">
+    <strong>MKM Organic Home Farm</strong><br>
+    🥚 Country Eggs &amp; Home-raised Poultry<br>
+    <small>&copy; 2026 MKM Organic Home Farm. All rights reserved.</small>
+  </div>
+</footer>
+
+</body>
+</html>
