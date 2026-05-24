@@ -1,5 +1,12 @@
-baseURL = '/'
+baseURL = 'https://mkm-organic-home-farm.vercel.app/'
 locale = 'ta-IN'
 title = 'MKM Organic Home Farm'
 theme = ''
-disableKinds = ['RSS', 'sitemap', 'taxonomy', 'term']
+disableKinds = ['RSS', 'taxonomy', 'term']
+
+[params]
+  author = 'MKM Organic Home Farm'
+  description = 'MKM Organic Home Farm - வீட்டில் வளர்க்கப்படும் கோழிகள், குஞ்சுகள் & புதிய நாட்டு முட்டைகள். Home-based poultry farm in Tamil Nadu. நாட்டுக்கோழி, முட்டை, வாத்து, கருங்கோழி, வான்கோழி.'
+  keywords = 'nattukozhi, natukozhi, matukoli, muttai, நாட்டுக்கோழி, முட்டை, நாட்டு முட்டை, கோழி குஞ்சுகள், country chicken, country eggs, poultry farm Tamil Nadu, home farm, organic chicken, kadaknath chicken, guinea fowl'
+  whatsapp = 'https://wa.me/919994656829'
+  phone = '+919994656829'
